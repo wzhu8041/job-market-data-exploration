@@ -1,13 +1,21 @@
 # Data folder
 
-This project uses U.S. Bureau of Labor Statistics (BLS) flat files.
+This project uses U.S. Bureau of Labor Statistics (BLS) **time-series flat files** hosted on BLS’s public download server:
+
+- Base directory: https://download.bls.gov/pub/time.series/
+- JOLTS (Job Openings and Labor Turnover Survey): https://download.bls.gov/pub/time.series/jt/
+- CES (Current Employment Statistics): https://download.bls.gov/pub/time.series/ce/
+- CPS / Labor Force (includes U-3 unemployment): https://download.bls.gov/pub/time.series/ln/
+
+> **Note:** The official BLS filenames typically have **no extension** (e.g., `jt.data.2.JobOpenings`).  
+> If you downloaded them as `.txt` (or renamed them), that’s totally fine—the contents are the same.
 
 ## Expected layout
 
 - `data/raw/` – original BLS downloads (large). This folder is **gitignored** by default.
 - `data/processed/` – small derived files you *can* commit (e.g., a single unemployment series).
 
-## Files used in the notebook
+## Files used in the notebook (Some data files are large)
 
 JOLTS (Job Openings and Labor Turnover Survey):
 - `jt.data.2.JobOpenings.txt`
