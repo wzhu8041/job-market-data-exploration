@@ -4,7 +4,7 @@ A lightweight portfolio project exploring U.S. labor-market conditions using **B
 
 The repo is intentionally simple: one notebook + a handful of figures + this README to interpret what’s going on.
 
-**Notebook:** [`notebooks/Job_Market_Data_Exploration.pdf`](notebooks/Job_Market_Data_Exploration.pdf)
+**Notebook:** [`notebooks/Job_Market_Data_Exploration.ipynb`](notebooks/Job_Market_Data_Exploration.ipynb)
 
 ---
 
@@ -27,7 +27,7 @@ The repo is intentionally simple: one notebook + a handful of figures + this REA
 
 ## Repo contents
 
-- Notebook (PDF export): `notebooks/Job_Market_Data_Exploration.pdf`
+- Notebook: `notebooks/Job_Market_Data_Exploration.ipynb`
 - Figures used in this README: `figures/*.png`
 - Data notes + expected file names: `data/README.md`
 
